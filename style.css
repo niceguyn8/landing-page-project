@@ -1,0 +1,58 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 5em;
+  color: white;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+input {
+  background-color: transparent;
+  background-color: rgba(255, 255, 255, .075);
+}
+
+input[type=email] {
+    width: 100px;
+    transition: ease-in-out, width .35s ease-in-out;
+}
+input[type=email]:focus {
+  width: 200px;
+}
+
+#cta {
+  margin-top: 75%;
+}
+
+#mc_embed_signup {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-left: 0;
+}
+
+#mc_embedded_signup form {
+  padding-left: 0;
+  padding: 0;
+}
+#mc_embedded_subscribe-form {
+  padding-left: 0;
+  /* width: 100; */
+}
+
+#mc_embed_signup .mc-field-group input {
+    display: block;
+    padding: 8px 0;
+    text-indent: 2%;
+}
