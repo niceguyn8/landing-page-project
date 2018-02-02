@@ -9,6 +9,13 @@ body {
   position: relative;
 }
 
+.our-page-header {
+ padding-bottom: 9px;
+ margin: 40px 0 20px;
+ /* border-bottom: 1px solid #eee; */
+ text-align: center;
+}
+
 h1 {
   font-family: 'Rock Salt', cursive;
 
